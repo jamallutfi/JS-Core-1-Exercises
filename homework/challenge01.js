@@ -39,3 +39,75 @@ var writers = [
 
 If you want an extra challenge, only `console.log()` the writers that are alive.
 */
+// var writers = [
+//   {
+//     firstName: "Virginia",
+//     lastName: "Woolf",
+//     occupation: "writer",
+//     age: 59,
+//     alive: false
+//   }
+// var writer = 'Jamal';
+// var writerAge = 37;
+// var writerLivingIn = 'Glasgow';
+
+// var writer = {
+//   name: 'Jamal',
+//   age: 37,
+//   livingIn: 'Glasgow',
+// };
+// var student = {
+//   name: 'Brian',
+//   age: 42,
+//   livingIn: 'Edinburgh',
+// };
+
+// function isLivingInGlasgow(someone) {
+//   console.log(someone.livingIn);
+//   if (someone.livingIn === "Glasgow") {
+//     return someone.name + ' lives in Glasgow';
+//   } else {
+//     return someone.name + ' does not live in Glasgow';
+//   }
+// }
+
+// console.log(isLivingInGlasgow(writer));
+// console.log(isLivingInGlasgow(student));
+
+var writers = [
+  {
+    firstName: "Virginia",
+    lastName: "Woolf",
+    occupation: "writer",
+    age: 59,
+    alive: false
+  },
+  {
+    firstName: "Zadie",
+    lastName: "Smith",
+    occupation: "writer",
+    age: 41,
+    alive: true
+  },
+  {
+    firstName: "Jane",
+    lastName: "Austen",
+    occupation: "writer",
+    age: 41,
+    alive: false
+  },
+  {
+    firstName: "bell",
+    lastName: "hooks",
+    occupation: "writer",
+    age: 64,
+    alive: true
+  },
+];
+
+
+for (var i = 0; i < writers.length; i++) {
+ console.log("Hi, my name is " + writers[i].firstName + " " + writers[i].lastName +". I am " + writers[i].age + " years old, and work as a " +  writers[i].occupation +"."
+); 
+  
+}
