@@ -15,25 +15,43 @@ Counting to 15 should look like this:
 'Fizz'
 'Buzz'
 11
-'FizzBuzz'
+'Fizz'
 13
 14
 'FizzBuzz'
 
 */
-for(var i=0; i<=10; i++) {
+for (var i = 1; i <= 15; i++) {
     //console.log(i)
-    if (i%3 === 0){
-    console.log("fizz")
-}else if(i%5 === 0 ){
-    console.log("buzz")
-}
-else {
-        console.log(i)
+
+   if (i % 3 === 0 && i % 5 === 0) {
+        console.log("fizzbuzz");
+    }
+    if (i % 3 === 0) {
+        console.log("fizz");
+    } else if (i % 5 === 0) {
+        console.log("buzz");
+    } 
+
+    else {
+        console.log(i);
 
     }
 
-} 
+}
+
+
+// go through each element in the list
+//for each element
+    // is the element divisible by both 3 and 5?
+        // print fizz buzz
+    // is the element divisible by 3?
+        // print fizz
+    // is the element divisble by 5?
+        //print buzz
+    // else, if none of the above is true
+        // print the number
+
 
 
 
